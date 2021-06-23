@@ -1,0 +1,15 @@
+{
+  "name": "test-package",
+  "description": "Some useful package to do some useful stuff with advanced capabilities.",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "package-1": "1.0.0",
+    "package-2": "2.0.0",
+    "package-3": "3.0.0",
+    "package-4": "4.0.0",
+    "package-5": "5.0.0",
+    "package-6": "6.0.0"
+  }
+}

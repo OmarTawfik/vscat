@@ -1,0 +1,331 @@
+{
+  "documentation.injection.js.jsx": {
+    "injectTo": ["source.js", "source.js.jsx"],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "documentation.injection.js.jsx.json"
+  },
+  "documentation.injection.ts": {
+    "injectTo": ["source.ts", "source.tsx"],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "documentation.injection.ts.json"
+  },
+  "source.asp.vb.net": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.asp.vb.net.json"
+  },
+  "source.batchfile": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.batchfile.json"
+  },
+  "source.c": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.c.json"},
+  "source.c.platform": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.c.platform.json"
+  },
+  "source.clojure": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.clojure.json"
+  },
+  "source.coffee": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.coffee.json"},
+  "source.cpp": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.cpp.json"},
+  "source.cpp.embedded.macro": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.cpp.embedded.macro.json"
+  },
+  "source.cs": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.cs.json"},
+  "source.css": {
+    "injectTo": [],
+    "tokenTypes": {"meta.function.url string.quoted": "other"},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.css.json"
+  },
+  "source.css.less": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.css.less.json"
+  },
+  "source.css.scss": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.css.scss.json"
+  },
+  "source.cuda-cpp": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.cuda-cpp.json"
+  },
+  "source.dart": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.dart.json"},
+  "source.diff": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.diff.json"},
+  "source.dockerfile": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.dockerfile.json"
+  },
+  "source.fsharp": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.fsharp.json"},
+  "source.go": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.go.json"},
+  "source.groovy": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.groovy.json"},
+  "source.hlsl": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.hlsl.json"},
+  "source.ignore": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.ignore.json"},
+  "source.ini": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.ini.json"},
+  "source.java": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.java.json"},
+  "source.js": {
+    "injectTo": [],
+    "tokenTypes": {
+      "entity.name.function.tagged-template": "other",
+      "entity.name.type.instance.jsdoc": "other",
+      "meta.import string.quoted": "other",
+      "variable.other.jsdoc": "other"
+    },
+    "embeddedLanguages": {
+      "meta.embedded.expression.js": "javascript",
+      "meta.tag.attributes.js": "javascript",
+      "meta.tag.js": "jsx-tags",
+      "meta.tag.without-attributes.js": "jsx-tags"
+    },
+    "grammarFileName": "source.js.json"
+  },
+  "source.js.jsx": {
+    "injectTo": [],
+    "tokenTypes": {
+      "entity.name.function.tagged-template": "other",
+      "entity.name.type.instance.jsdoc": "other",
+      "meta.import string.quoted": "other",
+      "variable.other.jsdoc": "other"
+    },
+    "embeddedLanguages": {
+      "meta.embedded.expression.js": "javascriptreact",
+      "meta.tag.attributes.js.jsx": "javascriptreact",
+      "meta.tag.js": "jsx-tags",
+      "meta.tag.without-attributes.js": "jsx-tags"
+    },
+    "grammarFileName": "source.js.jsx.json"
+  },
+  "source.js.regexp": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.js.regexp.tmLanguage"
+  },
+  "source.json": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.json.json"},
+  "source.json.comments": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.json.comments.json"
+  },
+  "source.julia": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {
+      "meta.embedded.inline.cpp": "cpp",
+      "meta.embedded.inline.javascript": "javascript",
+      "meta.embedded.inline.python": "python",
+      "meta.embedded.inline.r": "r",
+      "meta.embedded.inline.sql": "sql"
+    },
+    "grammarFileName": "source.julia.json"
+  },
+  "source.lua": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.lua.json"},
+  "source.makefile": {
+    "injectTo": [],
+    "tokenTypes": {"string.interpolated": "other"},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.makefile.json"
+  },
+  "source.objc": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.objc.json"},
+  "source.objcpp": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.objcpp.json"},
+  "source.perl": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.perl.json"},
+  "source.perl.6": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.perl.6.json"},
+  "source.php": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.php.json"},
+  "source.powershell": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.powershell.json"
+  },
+  "source.python": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.python.json"},
+  "source.r": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.r.json"},
+  "source.regexp.python": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.regexp.python.json"
+  },
+  "source.ruby": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.ruby.json"},
+  "source.rust": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.rust.json"},
+  "source.sassdoc": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.sassdoc.json"
+  },
+  "source.shaderlab": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "source.shaderlab.json"
+  },
+  "source.shell": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.shell.json"},
+  "source.sql": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.sql.json"},
+  "source.swift": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.swift.json"},
+  "source.ts": {
+    "injectTo": [],
+    "tokenTypes": {
+      "entity.name.function.tagged-template": "other",
+      "entity.name.type.instance.jsdoc": "other",
+      "meta.import string.quoted": "other",
+      "variable.other.jsdoc": "other"
+    },
+    "embeddedLanguages": {},
+    "grammarFileName": "source.ts.json"
+  },
+  "source.tsx": {
+    "injectTo": [],
+    "tokenTypes": {
+      "entity.name.function.tagged-template": "other",
+      "entity.name.type.instance.jsdoc": "other",
+      "meta.import string.quoted": "other",
+      "variable.other.jsdoc": "other"
+    },
+    "embeddedLanguages": {
+      "meta.embedded.expression.tsx": "typescriptreact",
+      "meta.tag.attributes.tsx": "typescriptreact",
+      "meta.tag.tsx": "jsx-tags",
+      "meta.tag.without-attributes.tsx": "jsx-tags"
+    },
+    "grammarFileName": "source.tsx.json"
+  },
+  "source.yaml": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "source.yaml.json"},
+  "text.git-commit": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "text.git-commit.json"
+  },
+  "text.git-rebase": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "text.git-rebase.json"
+  },
+  "text.html.basic": {
+    "injectTo": [],
+    "tokenTypes": {"meta.tag string.quoted": "other"},
+    "embeddedLanguages": {
+      "source.css": "css",
+      "source.js": "javascript",
+      "source.python": "python",
+      "source.smarty": "smarty",
+      "text.html": "html"
+    },
+    "grammarFileName": "text.html.basic.json"
+  },
+  "text.html.cshtml": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {"section.embedded.source.cshtml": "csharp", "source.css": "css", "source.js": "javascript"},
+    "grammarFileName": "text.html.cshtml.json"
+  },
+  "text.html.derivative": {
+    "injectTo": [],
+    "tokenTypes": {"meta.tag string.quoted": "other"},
+    "embeddedLanguages": {
+      "source.css": "css",
+      "source.js": "javascript",
+      "source.python": "python",
+      "source.smarty": "smarty",
+      "text.html": "html"
+    },
+    "grammarFileName": "text.html.derivative.json"
+  },
+  "text.html.handlebars": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {},
+    "grammarFileName": "text.html.handlebars.json"
+  },
+  "text.html.markdown": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {
+      "meta.embedded.block.c": "c",
+      "meta.embedded.block.clojure": "clojure",
+      "meta.embedded.block.coffee": "coffee",
+      "meta.embedded.block.cpp": "cpp",
+      "meta.embedded.block.csharp": "csharp",
+      "meta.embedded.block.css": "css",
+      "meta.embedded.block.diff": "diff",
+      "meta.embedded.block.dockerfile": "dockerfile",
+      "meta.embedded.block.dosbatch": "dosbatch",
+      "meta.embedded.block.frontmatter": "yaml",
+      "meta.embedded.block.fsharp": "fsharp",
+      "meta.embedded.block.go": "go",
+      "meta.embedded.block.groovy": "groovy",
+      "meta.embedded.block.html": "html",
+      "meta.embedded.block.ini": "ini",
+      "meta.embedded.block.java": "java",
+      "meta.embedded.block.javascript": "javascript",
+      "meta.embedded.block.json": "json",
+      "meta.embedded.block.less": "less",
+      "meta.embedded.block.lua": "lua",
+      "meta.embedded.block.makefile": "makefile",
+      "meta.embedded.block.objc": "objc",
+      "meta.embedded.block.perl": "perl",
+      "meta.embedded.block.perl6": "perl6",
+      "meta.embedded.block.php": "php",
+      "meta.embedded.block.powershell": "powershell",
+      "meta.embedded.block.pug": "jade",
+      "meta.embedded.block.python": "python",
+      "meta.embedded.block.r": "r",
+      "meta.embedded.block.ruby": "ruby",
+      "meta.embedded.block.rust": "rust",
+      "meta.embedded.block.scala": "scala",
+      "meta.embedded.block.scss": "scss",
+      "meta.embedded.block.shellscript": "shellscript",
+      "meta.embedded.block.sql": "sql",
+      "meta.embedded.block.typescript": "typescript",
+      "meta.embedded.block.typescriptreact": "typescriptreact",
+      "meta.embedded.block.vs_net": "vs_net",
+      "meta.embedded.block.xml": "xml",
+      "meta.embedded.block.xsl": "xsl",
+      "meta.embedded.block.yaml": "yaml",
+      "source.css": "css",
+      "source.js": "javascript"
+    },
+    "grammarFileName": "text.html.markdown.json"
+  },
+  "text.html.php": {
+    "injectTo": [],
+    "tokenTypes": {},
+    "embeddedLanguages": {
+      "source.css": "css",
+      "source.js": "javascript",
+      "source.json": "json",
+      "source.php": "php",
+      "source.sql": "sql",
+      "text.html": "html",
+      "text.xml": "xml"
+    },
+    "grammarFileName": "text.html.php.json"
+  },
+  "text.log": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "text.log.json"},
+  "text.pug": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "text.pug.json"},
+  "text.xml": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "text.xml.json"},
+  "text.xml.xsl": {"injectTo": [], "tokenTypes": {}, "embeddedLanguages": {}, "grammarFileName": "text.xml.xsl.json"}
+}

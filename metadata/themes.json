@@ -1,0 +1,16 @@
+[
+  {"id": "abyss", "label": "Abyss", "variation": "dark"},
+  {"id": "default-dark-plus", "label": "Default Dark+", "variation": "dark"},
+  {"id": "kimbie-dark", "label": "Kimbie Dark", "variation": "dark"},
+  {"id": "monokai", "label": "Monokai", "variation": "dark"},
+  {"id": "monokai-dimmed", "label": "Monokai Dimmed", "variation": "dark"},
+  {"id": "red", "label": "Red", "variation": "dark"},
+  {"id": "solarized-dark", "label": "Solarized Dark", "variation": "dark"},
+  {"id": "tomorrow-night-blue", "label": "Tomorrow Night Blue", "variation": "dark"},
+  {"id": "visual-studio-dark", "label": "Visual Studio Dark", "variation": "dark"},
+  {"id": "default-high-contrast", "label": "Default High Contrast", "variation": "high-contrast"},
+  {"id": "default-light-plus", "label": "Default Light+", "variation": "light"},
+  {"id": "quiet-light", "label": "Quiet Light", "variation": "light"},
+  {"id": "solarized-light", "label": "Solarized Light", "variation": "light"},
+  {"id": "visual-studio-light", "label": "Visual Studio Light", "variation": "light"}
+]

@@ -1,0 +1,19 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "VS Code Light Theme Defaults",
+  "colors": {
+    // General
+    "editor.foreground": "#FFFFFF",
+    "editor.background": "#000000",
+    "editorLineNumber.foreground": "#FFFFFF",
+    "editorWhitespace.foreground": "#e3e4e229",
+    // Diagnostics
+    "editorError.foreground": "#F48771",
+    "editorWarning.foreground": "#CCA700",
+    "editorInfo.foreground": "#75BEFF",
+    "editorHint.foreground": "#EEEEEEB3",
+    // Diffs
+    "diffEditor.insertedTextBackground": "#9BB95533",
+    "diffEditor.removedTextBackground": "#FF000033"
+  }
+}

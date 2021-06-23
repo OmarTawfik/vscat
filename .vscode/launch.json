@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Unit Tests",
+      "request": "launch",
+      "type": "pwa-node",
+      "runtimeExecutable": "yarn",
+      "args": ["jest", "${file}"],
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

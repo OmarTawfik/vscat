@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @font-face {
+        font-family: "seti";
+        src: url("__SETI_FONT_PATH__") format("woff");
+      }
+
+      body {
+        margin: 0;
+        padding: 0px;
+      }
+
+      .preview {
+        text-align: center;
+        width: __ICON_SIZE__;
+        height: __ICON_SIZE__;
+        font-size: __ICON_SIZE__;
+      }
+
+      .icon {
+        font-family: seti !important;
+        display: inline-block;
+        line-height: normal;
+      }
+
+      .icon:before {
+        color: __ICON_FONT_COLOR__;
+        content: "__ICON_FONT_CHARACTER__";
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="preview"><span class="icon"></span></div>
+  </body>
+</html>

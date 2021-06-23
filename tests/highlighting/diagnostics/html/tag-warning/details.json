@@ -1,0 +1,7 @@
+{
+  "severity": "warning",
+  "range": {
+    "from": {"line": 2, "column": 10},
+    "to": {"line": 2, "column": 13}
+  }
+}
