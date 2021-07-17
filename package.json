@@ -1,7 +1,7 @@
 {
   "name": "vscat",
   "description": "Bringing VS Code syntax highlighting to the terminal!",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "repository": "https://github.com/OmarTawfik/vscat",
   "author": "Omar Tawfik <15987992+OmarTawfik@users.noreply.github.com>",
