@@ -1,6 +1,4 @@
 on:
-  push:
-  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -13,3 +11,7 @@ jobs:
           node-version: 15.14.0
       - run: yarn --frozen-lockfile
       - run: yarn lint
+      - run: yarn semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
