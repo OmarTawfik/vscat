@@ -24,7 +24,12 @@ it("can detect language from file name", async () => {
   expect(langaugeId).toEqual("ignore");
 });
 
-it("can detect language from file name pattern", async () => {
+it("can detect language from file name pattern (leading glob)", async () => {
+  const langaugeId = await detectLanguage("foo/.git/config", "");
+  expect(langaugeId).toEqual("properties");
+});
+
+it("can detect language from file name pattern (trailing glob)", async () => {
   const langaugeId = await detectLanguage("foo/Dockerfile.Production", "");
   expect(langaugeId).toEqual("dockerfile");
 });

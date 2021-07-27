@@ -4,8 +4,11 @@ import {getSupportedLanguages} from "./metadata";
 import {splitLines} from "../highlighting/trivia";
 
 export async function detectLanguage(filePath: string, contents: string): Promise<string | undefined> {
-  const languages = await getSupportedLanguages();
+  if (!path.isAbsolute(filePath)) {
+    filePath = path.resolve(filePath);
+  }
 
+  const languages = await getSupportedLanguages();
   for (const {id, extensions, fileNamePatterns, firstLines, fileNames} of languages) {
     if (extensions.includes(path.extname(filePath))) {
       return id;
@@ -16,8 +19,8 @@ export async function detectLanguage(filePath: string, contents: string): Promis
     }
 
     if (
-      micromatch.isMatch(filePath, fileNamePatterns, {
-        matchBase: true,
+      [true, false].some((matchBase) => {
+        return micromatch.isMatch(filePath, fileNamePatterns, {matchBase});
       })
     ) {
       return id;
