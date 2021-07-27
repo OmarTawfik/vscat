@@ -90,3 +90,20 @@ it("does not print elepsis on lines with maximum width allowed", async () => {
     ]
   `);
 });
+
+it("trims line endings correctly with rendering tabs whitespace", async () => {
+  const result = await highlightSource({
+    source: `
+123 567890
+123\t890
+`.trim(),
+    width: 14,
+  });
+
+  expect(result).toMatchInlineSnapshot(`
+    Array [
+      " 1 │ 123·5678…",
+      " 2 │ 123→   8…",
+    ]
+  `);
+});

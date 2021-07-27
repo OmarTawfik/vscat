@@ -1,7 +1,7 @@
 export const ELEPSIS = "…";
 export const SQUIGGLY_MARKER = "~";
 
-export const WHITESPACE_REPLACEMENT = "·";
+export const SPACE_REPLACEMENT = "·";
 export const TAB_REPLACEMENT = "→   ";
 
 export const MARGIN_UP = " ╿ ";
