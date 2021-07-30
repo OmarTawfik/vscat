@@ -28,6 +28,10 @@
   "engines": {
     "node": "15.14.0"
   },
+  "files": [
+    "metadata/**",
+    "out/src/**"
+  ],
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
