@@ -2,9 +2,10 @@
 
 Bringing VS Code syntax highlighting to the terminal!
 
-- [User Guide (API)](./docs/user-guide/api.md)
-- [User Guide (CLI)](./docs/user-guide/cli.md)
-- [NPM Package](https://npmjs.com/package/vscat)
+- [Get started with the TypeScript/JavaScript API](./docs/user-guide/api.md)
+- [Get started with the terminal CLI](./docs/user-guide/cli.md)
+
+[![](https://github.com/OmarTawfik/vscat/actions/workflows/ci.yaml/badge.svg)](https://github.com/OmarTawfik/vscat/actions/workflows/ci.yaml) [![](https://github.com/OmarTawfik/vscat/actions/workflows/release.yaml/badge.svg)](https://github.com/OmarTawfik/vscat/actions/workflows/release.yaml) [![](https://badge.fury.io/js/vscat.svg)](https://www.npmjs.com/package/vscat)
 
 ## Why?
 
@@ -14,7 +15,7 @@ VS Code has developed phenomenally over the last few years, making it the de fac
 2. Easier and faster code reviews.
 3. Consistent and clear diagnostic messages.
 
-Unfortunatelly, this did not translate to CLI tools that the same developers use. This library aims to bridge the gap by bringing VS Code grammars and themes to the terminal. We hope that major build tools, apis, and linters can adopt it to provide a consistent experience accross all surfaces.
+Unfortunately, this did not translate to CLI tools that the same developers use. This library aims to bridge the gap by bringing VS Code grammars and themes to the terminal. We hope that future build tools, apis, and linters can adopt it to provide a consistent experience accross all surfaces.
 
 ## Features
 
@@ -415,7 +416,7 @@ We support all built in VS Code themes. You can also pass the explicit path to a
 
 ## Roadmap
 
-We released the first version of this library to gauge interest and asses further investment areas. Please [open an issue](https://github.com/OmarTawfik/vscat/issues) to give feedback on your use-case, or how can this library serve you better. Here are some of the features on our roadmap:
+We released the first version of this library to gauge interest and assess further investment areas. Please [open an issue](https://github.com/OmarTawfik/vscat/issues) to give feedback on your use-case, or how can this library serve you better. Here are some of the features on our roadmap:
 
 - Supporting nested languages ([#2](https://github.com/OmarTawfik/vscat/issues/2))
 - Supporting advanced decorators, like underlines, background colors ([#3](https://github.com/OmarTawfik/vscat/issues/3))
