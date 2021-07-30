@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/OmarTawfik/vscat/compare/v1.0.1...v1.0.2) (2021-07-30)
+
+
+### Bug Fixes
+
+* only include relevant files in npm package (closes [#9](https://github.com/OmarTawfik/vscat/issues/9)) ([a1fbea1](https://github.com/OmarTawfik/vscat/commit/a1fbea1f073585872dd143a0a877777e075df68d))
+
 ## [1.0.1](https://github.com/OmarTawfik/vscat/compare/v1.0.0...v1.0.1) (2021-07-29)
 
 
